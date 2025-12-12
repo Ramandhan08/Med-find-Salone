@@ -1,0 +1,68 @@
+{
+  "name": "MED-FIND SALONE - Sierra Leone Medical Directory",
+  "short_name": "MED-FIND SL",
+  "description": "Find hospitals, emergency services, and medical assistance across Sierra Leone",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "medical", "emergency"],
+  "shortcuts": [
+    {
+      "name": "Emergency Contacts",
+      "short_name": "Emergency",
+      "description": "Quick access to emergency numbers",
+      "url": "/?emergency=true",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Find Hospitals",
+      "short_name": "Hospitals",
+      "description": "Search for medical facilities",
+      "url": "/hospitals",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "AI Assistant",
+      "short_name": "Assistant",
+      "description": "Get medical guidance",
+      "url": "/assistant",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
